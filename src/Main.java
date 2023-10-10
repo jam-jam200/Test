@@ -8,5 +8,7 @@ public class Main {
         driver.get("https://www.google.com");
         WebElement searchBar = driver.findElement(By.name("q"));
         searchBar.sendKeys("Google Search");
+        //testing
         }
+
 }
