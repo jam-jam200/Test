@@ -9,6 +9,7 @@ public class Main {
         WebElement searchBar = driver.findElement(By.name("q"));
         searchBar.sendKeys("Google Search");
         //testing again
-        }
+    }
 
+}
 }
