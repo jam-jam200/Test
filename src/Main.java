@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class Main {
     public static void main(String[] args) {
         WebDriver driver = new ChromeDriver();
-        driver.get("https://www.google.com");
+        driver.get("https://www.youtybe.com");
         WebElement searchBar = driver.findElement(By.name("q"));
         searchBar.sendKeys("Google Search");
         //testing again
